@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Puzzle 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="mr-5 ml-5 p-0 bg-dark">
+    <div class="bg-secondary text-white">
+        <div class="row col-lg-12">
+            <div class="col-lg-6 order-2 p-0">
+                <h1 class="text-right">Bootstrap Puzzle 2</h1>
+            </div>
+            <div class="dropdown col-lg-6 order-1">
+                <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"></a>
+                <ul class="dropdown-menu bg-white" aria-labelledby="dropdownMenu1">
+                    <li class="dropdown-item"><a href="index.html" class="text-dark">Home</a></li>
+                    <li class="dropdown-item"><a href="puzzle1.html" class="text-dark">Puzzle 1</a></li>
+                    <li class="dropdown-item active"><a href="puzzle2.html" class="text-dark">Puzzle 2</a></li>
+                    <li class="dropdown-item"><a href="puzzle3.html" class="text-dark">Puzzle 3</a></li>
+                    <li class="dropdown-item"><a href="bonus.html" class="text-dark">Bonus</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide col-lg-12" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <a href="img/img1.jpg" target="_blank" class="carousel-item active">
+                    <img src="img/img1.jpg">
+                    <span class="carousel-caption">Bekijk Boom 1</span>
+                </a>
+                <a href="img/img2.jpg" target="_blank" class="carousel-item">
+                    <img src="img/img2.jpg">
+                    <span class="carousel-caption">Bekijk Boom 2</span>
+                </a>
+                <a href="img/img3.jpg" target="_blank" class="carousel-item">
+                    <img src="img/img3.jpg">
+                    <span class="carousel-caption">Bekijk Boom 3</span>
+                </a>
+                <a href="img/img4.jpg" target="_blank" class="carousel-item">
+                    <img src="img/img4.jpg">
+                    <span class="carousel-caption">Bekijk Boom 4</span>
+                </a>
+                <a href="img/img5.jpg" target="_blank" class="carousel-item">
+                    <img src="img/img5.jpg">
+                    <span class="carousel-caption">Bekijk Boom 5</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row bg-secondary p-0 m-0">
+            <div class="col mx-3 float-left">
+                <div class=" card flex-row flex-wrap m-2">
+                    <img src="img/item1.jpg" class="col-3 img-fluid float-left m-0 p-0 w-25">
+                    <h2 class="card-title col-9 bg-blue bg-info">Etiam hendrerit vel sem ac accumsan</h2>
+                    <p id="item1text" class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed
+                        nunc lectus, feugiat
+                        id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam
+                        erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut
+                        suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                    <p><a class="btn btn-info float-right" data-toggle="collapse" href="#item1text"
+                            aria-expanded="false" aria-controls="collapseExample">Lees meer &hellip;</a></p>
+                </div>
+                <div class="card flex-row flex-wrap m-2">
+                    <img src="img/item2.jpg" class="col-3 img-fluid float-left m-0 p-0 w-25">
+                    <h2 class="card-title col-9 bg-blue bg-info">Etiam hendrerit vel sem ac accumsan</h2>
+                    <p id="item2text" class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed
+                        nunc lectus, feugiat
+                        id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam
+                        erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut
+                        suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                    <p><a class="btn btn-info float-right" data-toggle="collapse" href="#item2text"
+                            aria-expanded="false" aria-controls="collapseExample">Lees meer &hellip;</a></p>
+                </div>
+                <div class="card flex-row flex-wrap m-2">
+                    <img src="img/item3.jpg" class="col-3 img-fluid float-left m-0 p-0 w-25">
+                    <h2 class="card-title col-9 bg-blue bg-info">Etiam hendrerit vel sem ac accumsan</h2>
+                    <p id="item3text" class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed
+                        nunc lectus, feugiat
+                        id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam
+                        erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut
+                        suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                    <p><a class="btn btn-info float-right" data-toggle="collapse" href="#item3text"
+                            aria-expanded="false" aria-controls="collapseExample">Lees meer &hellip;</a></p>
+                </div>
+            </div>
+
+            <div class="col mx-3 float-right">
+                <div class=" card flex-row flex-wrap  m-2">
+                    <img src="img/item4.jpg" class="col-3 img-fluid float-left m-0 p-0 w-25">
+                    <h2 class="card-title col-9 bg-blue bg-info">Etiam hendrerit vel sem ac accumsan</h2>
+                    <p id="item4text" class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed
+                        nunc lectus, feugiat
+                        id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam
+                        erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut
+                        suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                    <p><a class="btn btn-info float-right" data-toggle="collapse" href="#item4text"
+                            aria-expanded="false" aria-controls="collapseExample">Lees meer &hellip;</a></p>
+                </div>
+                <div class="card flex-row flex-wrap  m-2">
+                    <img src="img/item5.jpg" class="col-3 img-fluid float-left m-0 p-0 w-25">
+                    <h2 class="card-title col-9 bg-blue bg-info">Etiam hendrerit vel sem ac accumsan</h2>
+                    <p id="item5text" class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed
+                        nunc lectus, feugiat
+                        id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam
+                        erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut
+                        suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                    <p><a class="btn btn-info float-right" data-toggle="collapse" href="#item5text"
+                            aria-expanded="false" aria-controls="collapseExample">Lees meer &hellip;</a></p>
+                </div>
+                <div class="card flex-row flex-wrap  m-2">
+                    <img src="img/item6.jpg" class="col-3 img-fluid float-left m-0 p-0 w-25">
+                    <h2 class="card-title col-9 bg-blue bg-info">Etiam hendrerit vel sem ac accumsan</h2>
+                    <p id="item6text" class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed
+                        nunc lectus, feugiat
+                        id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam
+                        erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut
+                        suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                    <p><a class="btn btn-info float-right" data-toggle="collapse" href="#item6text"
+                            aria-expanded="false" aria-controls="collapseExample">Lees meer &hellip;</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-secondary bg-secondary text-right">
+            <div>
+                <span>Created with:</span>
+                <a href="https://getbootstrap.com/" target="_blank"><img src="img/logo-bootstrap.png"></a>
+                <a href="https://fontawesome.com/" target="_blank"><img src="img/logo-fontawsome.png"></a>
+                <a href="https://w3schools.com/" target="_blank"><img src="img/logo-w3schools.png"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
